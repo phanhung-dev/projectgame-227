@@ -1,0 +1,17 @@
+{
+  "materials": [
+    { "name": "grass_top", "textureURL": "./src/assets/grass.png", "atlasIndex": 0 },
+    { "name": "grass_side", "textureURL": "./src/assets/grass.png", "atlasIndex": 1 },
+    { "name": "grass_bottom", "textureURL": "./src/assets/grass.png", "atlasIndex": 2 }
+  ],
+  "blocks": [
+    {
+      "name": "dirt",
+      "material": "grass_bottom"
+    },
+    {
+      "name": "grass",
+      "material": ["grass_top", "grass_bottom", "grass_side"]
+    }
+  ]
+}

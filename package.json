@@ -1,0 +1,17 @@
+{
+  "name": "projectgame-227",
+  "version": "0.0.1",
+  "description": "A voxel game made with React.js and noa-engine",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "overrides": {
+    "@babylonjs/core": "^8.13.0"
+  },
+  "license": "MIT",
+  "author": "fwy13",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@projectgame-227/engine",
+  "version": "0.0.1",
+  "description": "A engine for ProjectGame-227 based on noa-engine",
+  "main": "./index.ts",
+  "dependencies": {
+    "@babylonjs/core": "^8.13.0",
+    "@babylonjs/loaders": "^8.13.0",
+    "noa-engine": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
