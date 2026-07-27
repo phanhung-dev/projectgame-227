@@ -10,7 +10,6 @@ export class Map {
     this.load_resources(json_blocks);
     this.register_resources(json_blocks);
     this.loadMap();
-    this.create_skybox();
   }
 
   private load_resources(json_blocks: GameResources) {
