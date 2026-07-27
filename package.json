@@ -12,6 +12,9 @@
   "license": "MIT",
   "author": "fwy13",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run dev --workspace=web"
+  },
+  "dependencies": {
+    "game-inputs": "^0.8.0"
   }
 }

@@ -25,7 +25,7 @@ declare module "noa-engine" {
     rendering: Rendering;
     physics: Physics;
     entities: Entities;
-    ents: Entities;
+    ents: any;
     playerEntity: number;
     camera: Camera;
     targetedBlock: {
@@ -328,7 +328,7 @@ declare module "noa-engine" {
     disabled: boolean;
 
     down: EventEmitter;
-    up: Record<string, boolean>;
+    up: EventEmitter;
     state: Record<string, boolean>;
     pointerState: {
       dx: number;

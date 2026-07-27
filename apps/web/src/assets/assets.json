@@ -1,8 +1,8 @@
 {
   "materials": [
-    { "name": "grass_top", "textureURL": "./src/assets/grass.png", "atlasIndex": 0 },
-    { "name": "grass_side", "textureURL": "./src/assets/grass.png", "atlasIndex": 1 },
-    { "name": "grass_bottom", "textureURL": "./src/assets/grass.png", "atlasIndex": 2 }
+    { "name": "grass_top", "textureURL": "./src/assets/planks_oak.png", "atlasIndex": 0 },
+    { "name": "grass_side", "textureURL": "./src/assets/planks_oak.png", "atlasIndex": 1 },
+    { "name": "grass_bottom", "textureURL": "./src/assets/planks_oak.png", "atlasIndex": 2 }
   ],
   "blocks": [
     {
